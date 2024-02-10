@@ -1,11 +1,15 @@
 import { useLocation, Route, Routes } from 'react-router-dom'
-import Navigation from "./Navigation"
 import About from "./About"
+import ContactsForm from './ContactsForm'
 import Excursion from "./Excursion"
-import Kabinet from "./Kabinet"
 import First from "./First"
-import NoPage from "./NoPage"
+import Footer from "./Footer"
+import Galereya from "./Galereya"
+import Kabinet from "./Kabinet"
+import Navigation from "./Navigation"
 import NewExcurs from "./NewExcurs"
+import NoPage from "./NoPage"
+import Reviews from "./Reviews"
 
 function AllComponents(props) {
     const location = useLocation()
@@ -19,6 +23,9 @@ function AllComponents(props) {
                 <Route path="/kabinet" element={<Kabinet/>} />
                 <Route path="*" element={<NoPage />} />
                 <Route path="/newExcurs" element={<NewExcurs />} />
+                <Route path="/contactsForm" element={<ContactsForm />} />
+                <Route path="/reviews" element={<Reviews/>} />
+
             </Route>
         </Routes>
     );

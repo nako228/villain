@@ -10,11 +10,11 @@ import galery8 from "../../assets/images/Galery8.png";
 
 function Galereya() {
     return ( 
-        <div className="galery-wrapper">
-        <div className="top">
+        <div className="galery-class">
+        <div className="top-content">
             <span>Галерея</span>
         </div>
-        <div className="galery-content">
+        <div className="galery-wrapp">
 
             <div className="left">
                 <img src={galery1} alt="galery1" />

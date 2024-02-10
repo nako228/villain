@@ -11,7 +11,7 @@ function Navigation() {
         <div className="outlet">
             <Outlet />
         </div>
-        <nav className='nav-first'>
+        <nav className='nav-content'>
             <div className="nav-left">
                 <h1>
                     <Link to={"/"}>

@@ -14,7 +14,7 @@ function Footer() {
             <Link to={"/"}>
                 <img src={air} alt="air"/>
                 </Link>
-            <div className="links">
+            <div className="content-links">
                 <Link to="/">Главная</Link>
                 <Link to="/excursions">Экскурсии</Link>
                 <Link to="/">Личный кабинет</Link>
@@ -24,7 +24,7 @@ function Footer() {
                 <img src={gg} alt="tt" />+7 918 919 98 28 <br />
                 <img src={gg} alt="tt" />Телеграм-бот PeroTravel <br />
             </div>
-            <div className="images">
+            <div className="img">
                 <div className="email">
                     <img src={mail} alt="" /> <span>office@perotravel.ru</span>
                 </div>      

@@ -1,6 +1,6 @@
 @import "../../assets/style/settings";
-.galery-wrapper {
-    .top {
+.galery-class {
+    .top-content {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -14,7 +14,7 @@
         }
     }
 
-    .galery-content {
+    .galery-wrapp{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         gap: 20px;
