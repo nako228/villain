@@ -17,7 +17,7 @@ function First() {
                 <h3>вместе с</h3>
                 <h1 className="pero">PERO TRAVEL</h1>
                 <Link to={"/excursions"}>
-                <button className="excursion">Просмотреть экскурсии</button>
+                <button className="excursion">К экскурсиям ➡</button>
                 </Link>
                 
             </div>

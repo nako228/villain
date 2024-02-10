@@ -5,7 +5,7 @@ import Excursion from "./Excursion"
 import Kabinet from "./Kabinet"
 import First from "./First"
 import NoPage from "./NoPage"
-
+import NewExcurs from "./NewExcurs"
 
 function AllComponents(props) {
     const location = useLocation()
@@ -18,6 +18,7 @@ function AllComponents(props) {
                 <Route path="/excursions" element={<Excursion/>} />
                 <Route path="/kabinet" element={<Kabinet/>} />
                 <Route path="*" element={<NoPage />} />
+                <Route path="/newExcurs" element={<NewExcurs />} />
             </Route>
         </Routes>
     );
