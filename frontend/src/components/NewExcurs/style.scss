@@ -1,0 +1,79 @@
+@import "../../assets/style/settings";
+.main-excurs{
+    margin: 10px;
+    margin-top: 300px;
+    .second-excurs{
+        margin: 0 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        span:first-child {
+            font-size: 24px;
+            font-weight: bolder;
+            color: #0499DD;
+        }
+    }
+
+    .values-wrapper {
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        gap: 10px;
+        margin-top: 20px;
+        height: 100vh;
+        width: 99%;
+        .swiper {
+            width: 100%;
+            height: 75vh;
+            gap: 50px;
+            left: 150px;
+         text-align: center;
+            .swiper-slide {
+                margin: 20px;
+                background: #fff;
+                display: inline-flex;
+                .value-item {
+                    text-align: left;   
+                    width: 360px;
+                    .value-info {
+                        padding: 230px 30px 0 30px;
+                        color: $light;
+                        position: relative;
+
+                        h3 {
+                            margin: 12px 0;
+                            color: #FFC700;
+                            size: 14px;
+                        }
+
+                        h6 {
+                            display: inline;
+                            justify-content: center;
+                            align-items: center;
+                        }
+
+                        p {
+                            font-size: x-small;
+                            position: absolute;
+                            bottom: 100px;
+                            justify-content: center;
+                            align-items: center;
+                            padding: 10px 10px 0 0;
+                        }
+
+                        button {
+                            @extend %green-btn;
+                            position: absolute;
+                            width: 160px;
+                            height: 40px;
+                            bottom: 40px;
+                            right: 90px;
+                            justify-content: center;
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}

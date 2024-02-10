@@ -1,0 +1,25 @@
+@import "../../assets/style/settings";
+
+
+.nav-first {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 20px 100px;
+    align-items: center;
+    background-color: transparent;
+    top: 0;
+    h1{
+        margin-right: 900px;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+        display: inline-block;
+        padding: 5px 5px;
+
+        &:hover{
+            color: orange;
+        }
+    }}

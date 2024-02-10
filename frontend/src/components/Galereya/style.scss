@@ -1,0 +1,54 @@
+@import "../../assets/style/settings";
+.galery-wrapper {
+    .top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 10px 30px;
+        padding: 40px 130px;
+
+        span:first-child {
+            font-size: 24px;
+            font-weight: bolder;
+            color: #0499DD;
+        }
+    }
+
+    .galery-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+        padding: 10px 120px;
+
+        * {
+            display: inline;
+        }
+
+        img {
+            padding: 7px;
+        }
+
+        div {
+            padding: 0;
+            margin: 0;
+        }
+
+        .left {
+            display: grid;
+            grid-template-columns: 1fr;
+
+            div {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 5px;
+                padding: 0;
+
+                div {
+                    display: block;
+                    gap: 5px;
+                }
+            }
+        }
+    }
+}
+   

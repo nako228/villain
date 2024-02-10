@@ -1,0 +1,80 @@
+@import "../../assets/style/settings";
+
+.wrapper-content {
+    padding: 50px 0;
+    margin-top: 600px;
+    h1 {
+        color: #0499DD;
+    }
+    .gg-content{
+        margin: 45px 0px;
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        gap: 10px;
+        position: relative;
+        img {
+            width: 1050px;
+            height: 700px;
+        }
+    }
+}
+       .about {
+            position: absolute;
+            width: 600px;
+            height: 500px;
+            top: 1850px;
+            background-color: #EDEDED;
+            color: #333;
+            border-radius: 10px;
+            padding: 50px;
+            top: 100px;
+            right: 100px;
+        }
+        
+    .whit-content {
+        margin: 45px 0px;
+        padding: 50px 150px;
+
+        h1 {
+            padding-bottom: 30px;
+        }
+
+        .parag {
+            width: 650px;
+            text-align: center; 
+            margin-bottom: 25px;
+            margin: 0 auto;
+            margin-top: 35px;      
+        }
+        button {
+            height: 55px;
+            width: 225px;
+            margin: 16px;
+            margin-left: 550px;  
+             border-radius: 60px;
+            justify-content: center;
+            border: none;
+            background: #00cc00;
+        }
+        .values-wrapper {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            .value-item {
+                padding-top: 50px;
+                display: grid;
+                grid-template-columns: 1fr 3fr;
+                position: relative;
+                img {
+                    position: absolute;
+                    top: 35px;
+                    left: 65px;
+                }
+
+                p {
+                    color: gray;
+                    margin-top: 15px;
+                }
+            }
+        }
+    }

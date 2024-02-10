@@ -1,0 +1,27 @@
+@use "./resets";
+@import "./samples";
+
+$dark: #141414;
+$dark-lighter: #202020;
+$success: #00cc00;
+$light: #ffffff;
+
+%link {
+    @extend %link-style;
+}
+
+%green-btn {
+    color: $light;
+    background: linear-gradient(119deg, rgb(95, 222, 36) 50%, rgb(52, 245, 13) 85%);
+    height: 40px;
+    width: 190px;
+    border: none;
+    border-radius: 30px;
+    &:hover{
+        transform: scale(0.9);
+    }
+    &:active{
+        transform: scale(0.8);
+    }
+
+}
