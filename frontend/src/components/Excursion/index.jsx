@@ -1,4 +1,4 @@
-function Excursion() {
+function Excursio() {
     return (<></>  );
 }
 

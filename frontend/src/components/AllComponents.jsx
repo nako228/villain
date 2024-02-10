@@ -19,7 +19,6 @@ function AllComponents(props) {
             <Route path="/" element={<Navigation />} >
                 <Route index element={<First />} />
                 <Route path="/about" element={<About />} />
-                <Route path="/excursions" element={<Excursion/>} />
                 <Route path="/kabinet" element={<Kabinet/>} />
                 <Route path="*" element={<NoPage />} />
                 <Route path="/newExcurs" element={<NewExcurs />} />

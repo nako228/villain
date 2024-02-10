@@ -31,9 +31,9 @@ function ContactsForm() {
         });
     }
     return (
-        <div className="contancts-f-wrapper">
+        <div className="input-constacts-wrapper">
             <form onSubmit={sendEMailJS_Fn}>
-                <div className="contacts-f-content">
+                <div className="constacts-villain-wrapper">
                     <h1>Остались вопросы?</h1>
                     <h3>Оставь заявку и мы ответим</h3>
                     <input

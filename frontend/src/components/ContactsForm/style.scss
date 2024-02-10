@@ -1,6 +1,6 @@
 @import "../../assets/style/settings";
 
-.contancts-f-wrapper {
+.input-constacts-wrapper {
     width: 100%;
     height: 80vh;
     background: url("../../assets/images/Question.png") no-repeat;
@@ -10,12 +10,12 @@
 
     form {
         text-align: center;
-        .contacts-f-content {
+        .constacts-villain-wrapper {
             backdrop-filter: blur(10px);
             background-color: #00000050;
             background-blend-mode: darken;
             color: $light;
-            padding: 100px 80px;
+            padding: 105px 80px;
             margin-left: 850px;
             height: 593px;
             width: 590px;
