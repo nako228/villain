@@ -31,11 +31,11 @@ function ContactsForm() {
         });
     }
     return (
-        <div className="contancts-f-wrapper">
+        <div className="otvet-wrapper">
             <form onSubmit={sendEMailJS_Fn}>
-                <div className="contacts-f-content">
-                    <h1>Остались вопросы?</h1>
-                    <h3>Оставь заявку и мы ответим</h3>
+                <div className="otvet-wrapper">
+                    <h1>Есть  вопросы?</h1>
+                    <h3>Оставьте заявку и мы ответим</h3>
                     <input
                         id="full-name-input" type="text"
                         placeholder="Имя"

@@ -9,7 +9,7 @@ function Values(props) {
     const images = [Bus, Jip, Yaxta, Kanon]
 
     return (
-        <div className="values-wrapper">
+        <div className="value-wrapper">
             {
                 valuesData && valuesData.map((item, index) => {
                     return (
